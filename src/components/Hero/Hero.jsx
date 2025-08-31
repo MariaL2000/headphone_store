@@ -23,8 +23,8 @@ const HeroText = memo(() => (
       transition={{ duration: 1, delay: 0.3, ease: "easeInOut" }}
       className="mt-4 text-base sm:text-lg md:text-xl lg:text-2xl max-w-2xl text-white"
     >
-      Keep <span style={{ color: "var(--header)" }}>connected</span>{" "}
-      with the universe
+      Keep <span style={{ color: "var(--header)" }}>connected</span> with the
+      universe
     </motion.p>
   </div>
 ));
@@ -45,7 +45,7 @@ const Hero = () => {
       <Suspense fallback={<Loader />}>
         <div className="absolute inset-0 w-full h-full">
           <Spline
-            scene="https://prod.spline.design/yA913u7yGV8yn68S/scene.splinecode"
+            scene="https://prod.spline.design/m8xkByvaV7uSYwlR/scene.splinecode"
             className="w-full h-full"
           />
         </div>
